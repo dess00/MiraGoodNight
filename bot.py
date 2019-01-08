@@ -40,4 +40,4 @@ def default_test(message):
 def handle_stop(message):
     bot.send_message(message.chat.id, config.error)
 
-bot.polling(none_stop = True, interval=0 )     
+bot.polling(none_stop = True)     
