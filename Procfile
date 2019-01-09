@@ -1,1 +1,1 @@
-web: python3.7 bot.py -p 5000
+web: python3.7 bot.py
