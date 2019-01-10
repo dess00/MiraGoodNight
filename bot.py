@@ -23,6 +23,10 @@ def help_message(message):
 @bot.message_handler(commands=['QLG'])    
 def nottonight(message):
     bot.send_message(message.chat.id, config.nottonight)
+    
+@bot.message_handler(commands=['QLGP6006'])    
+def nottonight(message):
+    bot.send_message(message.chat.id, config.wellok)    
 
 # клавиатура url
 @bot.message_handler(commands=["nav"])
