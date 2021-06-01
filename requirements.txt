@@ -6,7 +6,7 @@ pyTelegramBotAPI==3.6.6
 requests==2.21.0
 six==1.12.0
 stevedore==1.30.0
-urllib3==1.24.1
+urllib3==1.26.5
 virtualenv==16.2.0
 virtualenv-clone==0.4.0
 virtualenvwrapper==4.8.2
